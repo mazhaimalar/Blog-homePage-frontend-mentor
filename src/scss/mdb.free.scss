@@ -1,0 +1,452 @@
+// CORE FUNCTIONS
+@import './bootstrap-rtl-fix/functions';
+@import './free/functions';
+
+// CORE VARIABLES
+@import './custom/variables';
+@import './free/variables';
+@import './bootstrap-rtl-fix/variables';
+
+// BOOTSTRAP CORE
+@import './bootstrap-rtl-fix/mixins';
+@import './bootstrap-rtl-fix/utilities';
+
+// BOOTSTRAP CORE COMPONENTS
+@import './bootstrap-rtl-fix/root';
+@import './bootstrap-rtl-fix/reboot';
+@import './bootstrap-rtl-fix/type';
+@import './bootstrap-rtl-fix/images';
+@import './bootstrap-rtl-fix/containers';
+@import './bootstrap-rtl-fix/grid';
+
+// BOOTSTRAP COMPONENTS
+@import './bootstrap-rtl-fix/tables';
+@import './bootstrap-rtl-fix/forms';
+@import './bootstrap-rtl-fix/buttons';
+@import './bootstrap-rtl-fix/transitions';
+@import './bootstrap-rtl-fix/dropdown';
+@import './bootstrap-rtl-fix/button-group';
+@import './bootstrap-rtl-fix/nav';
+@import './bootstrap-rtl-fix/navbar';
+@import './bootstrap-rtl-fix/card';
+@import './bootstrap-rtl-fix/breadcrumb';
+@import './bootstrap-rtl-fix/pagination';
+@import './bootstrap-rtl-fix/badge';
+@import './bootstrap-rtl-fix/alert';
+@import './bootstrap-rtl-fix/accordion';
+@import './bootstrap-rtl-fix/progress';
+@import './bootstrap-rtl-fix/list-group';
+@import './bootstrap-rtl-fix/close';
+@import './bootstrap-rtl-fix/toasts';
+@import './bootstrap-rtl-fix/modal';
+@import './bootstrap-rtl-fix/tooltip';
+@import './bootstrap-rtl-fix/popover';
+@import './bootstrap-rtl-fix/carousel';
+@import './bootstrap-rtl-fix/spinners';
+@import './bootstrap-rtl-fix/offcanvas';
+@import './bootstrap-rtl-fix/tooltip';
+
+// Helpers
+@import './bootstrap-rtl-fix/helpers';
+
+// Utilities
+@import './free/utilities';
+@import './bootstrap-rtl-fix/utilities/api';
+
+// MDB CORE
+@import './free/mixins';
+@import './free/utilities';
+
+// MDB CORE COMPONENTS
+@import './free/root';
+@import './free/reboot';
+@import './free/type';
+@import './free/colors';
+@import './free/shadows';
+@import './free/flag';
+@import './free/images';
+
+// MDB FORMS
+@import './free/forms/form-control';
+@import './free/forms/form-select';
+@import './free/forms/form-check';
+@import './free/forms/form-file';
+@import './free/forms/input-group';
+@import './free/forms/validation';
+@import './free/forms/form-range';
+
+// MDB COMPONENTS
+@import './free/tables';
+@import './free/buttons';
+@import './free/deprecated';
+@import './free/dropdown';
+@import './free/button-group';
+@import './free/nav';
+@import './free/navbar';
+@import './free/card';
+@import './free/breadcrumb';
+@import './free/pagination';
+@import './free/badge';
+@import './free/alert';
+@import './free/progress';
+@import './free/list-group';
+@import './free/close';
+@import './free/modal';
+@import './free/toasts';
+@import './free/tooltip';
+@import './free/popover';
+@import './free/scrollspy';
+@import './free/ripple';
+@import './free/range';
+@import './free/accordion';
+@import './free/carousel';
+
+.btn {
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: indianred;
+    color: rgb(226, 128, 36);
+
+}
+
+.hero {
+    border-bottom-left-radius: 70px;
+    padding-bottom: 40px;
+    color: white;
+    height: 100vh;
+    background: url(images/bg-pattern-intro.svg) center no-repeat,
+        linear-gradient(to right, rgb(224, 119, 100), rgb(223, 72, 62));
+    background-size: 160px cover;
+    margin-bottom: 50px;
+    overflow: hidden;
+    background-attachment: fixed;
+
+}
+
+.dropdown-item {
+    color: white;
+
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(to right, rgb(224, 119, 100), rgb(223, 72, 62));
+}
+
+/**.backgroundImage {
+    position: relative;
+    z-index: 2;
+}
+
+.intro {
+    position: absolute;
+    z-index: 1;
+    height: 1800px;
+    width: 1800px;
+    left: -280px;
+
+}**/
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+
+}
+
+.dflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.yrelative {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.logo {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+
+nav {
+
+    padding-bottom: 0px;
+    background: inherit;
+}
+
+.white {
+    color: white !important;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.ml-50 {
+    margin-left: 400px;
+}
+
+.whiteBtn {
+    background-color: white;
+    color: rgb(223, 72, 62)
+}
+
+
+
+.font {
+    font-weight: 550;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+.background {
+    height: 300px;
+    background-image: url(#svg1);
+}
+
+
+
+
+
+.midSection {
+    color: rgb(36, 46, 138);
+    font-size: larger;
+    padding: 2px;
+    margin: 6px;
+    /** border: dotted black 10px;**/
+}
+
+.midSectionTitle {
+    color: rgb(36, 46, 138);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.margin {
+    margin-right: calc(var(--bs-gutter-x)/ 1);
+    margin-left: calc(var(--bs-gutter-x)/ 1);
+}
+
+.midSectionTop {
+    margin-bottom: 80px;
+}
+
+.midSection {
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+
+b,
+p {
+    display: block;
+    text-align: start;
+}
+
+
+.desktop {
+    height: inherit;
+    width: inherit;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    /**display: inline;
+    vertical-align: middle;
+    height: 100%;**/
+}
+
+.grey {
+    background-color: rgb(55, 58, 85);
+    color: white;
+    font-size: 15px;
+
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    zt-index: -2;
+    flex-wrap: wrap;
+
+}
+
+.circles {
+    position: absolute;
+    z-index: -1;
+    bottom: 20%;
+    height: 850px;
+    width: 80%;
+    left: 20%;
+}
+
+.ThirdSectionContent {
+    padding: 20px;
+    text-align: start;
+}
+
+.ThirdSectionTitle {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.absolute {
+    position: absolute;
+    z-index: 1;
+    top: -140px;
+    margin-top: 60px;
+    width: 50%;
+    height: 140%;
+
+}
+
+.height {
+    height: 100%;
+}
+
+.overlap {
+    padding: 30%;
+
+}
+
+.relative {
+    position: relative;
+    heigtht: 480px;
+    margin-top: 40px;
+}
+
+.row-3 {
+    margin-top: 8%;
+}
+
+.laptop {
+    justify-content: flex-start;
+    height: 600px;
+    width: 900px;
+    position: relative;
+    left: -205px
+}
+
+.marginRight {
+    margin-right: 20px;
+    padding: 120px;
+    text-align: center;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.background-grey {
+    background-color: rgb(55, 58, 85);
+
+}
+
+.logo-image {}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul.flex {
+    padding-left: .6rem;
+    list-style: none;
+
+}
+
+
+
+.background-grey .col-3 b {
+    color: white;
+    display: block;
+    margin: 20px;
+}
+
+.rel {
+    height: 360px;
+    /* Can be anything */
+
+    /* Can be anything */
+    position: relative;
+}
+
+.logo-image {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.flex li {
+    margin: 7px;
+    font-family: Sans-serif;
+}
+
+
+
+
+div .margin {
+    flex-wrap: wrap-reverse;
+}
+
+
+.grey-3 {
+    background: url(images/bg-pattern-circles.svg) no-repeat, rgb(55, 58, 85);
+    background-size: 640px 640px;
+    margin-top: 150px;
+
+}
+
+.rel-3 {
+    position: relative;
+
+}
+
+.abs-3 {
+    position: absolute;
+    top: -160px;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.margin-left-3 {
+    margin-left: 10px;
+}
