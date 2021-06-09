@@ -1,8 +1,11 @@
-MDB5
-Version: FREE 3.7.1
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
 
-Contact:
-office@mdbootstrap.com
+#Description:
+      This is a practice project where the home page of a website is built.
+      
+Frameworks and languages:
+     HTML , CSS , Bootstrap.
+     
+What I Learnt :
+  using 12 column grid system of bootstrap
+  Practiced css
